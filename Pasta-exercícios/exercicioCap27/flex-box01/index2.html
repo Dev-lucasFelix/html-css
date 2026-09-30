@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treinando flex-item</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        div.conteiner{
+            background-color: lightsalmon;
+
+            display: flex;
+            flex-flow: row nowrap;
+            flex-basis: auto;
+        }
+
+        div.item{
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+     <div class="conteiner">
+         <div class="item" >1</div>
+         <div class="item" >testando o flex basis se vai mudar a largura</div>
+        <div class="item" >3</div>
+        <div class="item" >4</div>
+        <div class="item" >aqui tambem mudou</div>
+        <div class="item" >6</div>
+        <div class="item" >7</div>
+        <div class="item" >8</div>
+
+    </div>
+</body>
+</html>
