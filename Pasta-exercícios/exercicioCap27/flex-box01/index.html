@@ -1,46 +1,48 @@
 <!DOCTYPE html>
-<html lang="pt=br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aprendendo flex-box</title>
-
+    <title>Flex box</title>
     <style>
-        *{
-            margin: 0px;
-            padding: 0px;
-            box-sizing: border-box;
+        div.conteiner{
+            background-color: lightsalmon;
+            height: 500px;
+            width: 500px;
+            display: flex;
+            flex-flow: row wrap;
+            align-content: space-evenly;
+            
+             
         }
 
-        body{
-            background-color: lightsalmon;
+        div.item{
+            background-color: lightblue;
+            border: 1px solid black;
+
+            text-align: center;
+            padding: 40px;
             
         }
 
-        main{
-            background-color: lightgreen;
-            width: 90vw;
-            height: 90vh;
-
-            display: flex;
-            flex-flow: row nowrap;
-            justify-content: center;
-            align-items: center;
-        }
-
-        section{
-            background-color: lightseagreen;
-            width: 200px;
-            height: 200px;
-        }
     </style>
-    
 </head>
 <body>
-    <main>
-        <section>
-            <h1>Tela de login</h1>
-        </section>
-    </main>
+    <div class="conteiner">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">G</div>
+        <div class="item">G</div>
+        <div class="item">G</div>
+        <div class="item">G</div>
+        <div class="item">G</div>
+        <div class="item">G</div>
+    </div>
+    
 </body>
 </html>
