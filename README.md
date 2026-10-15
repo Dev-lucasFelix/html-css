@@ -21,6 +21,4 @@ Visite meu terceiro projeto desenvolvido no curso, Projeto-Mídias-Sociais:
 Visite meu quarto projeto desenvolvido no curso, DevStart:
 <a href="https://dev-lucasfelix.github.io/html-css/Projetos/DevStart/DevStart.html" target="_blank">
     DevStart
-</a>>
-    Projeto-Mídias-Sociais
 </a>
