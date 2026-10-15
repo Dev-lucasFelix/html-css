@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 700px) {
+
+    header{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    
+    main{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        
+        height: 100%;
+        width: 100%;
+        
+    }
+    
+    div.Cursos{
+    display: flex;
+    flex-flow: column nowrap;
+    
+    width: 80%;
+}
+}

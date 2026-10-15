@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: rgb(32, 32, 116);
+    padding: 15px;
+    color: white;
+}
+
+
+header > nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header > nav > a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+header > nav > a:hover{
+    background-color: rgba(255, 255, 255, 0.13);
+}
+
+header > input{
+    background-color: rgb(52, 171, 211);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+main{
+    padding-inline: 10px;
+    background-color: rgb(219, 219, 219);
+    height: 100vh;
+
+    width: 700px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.432);
+}
+
+div.titulo{
+    text-align: center;
+    padding: 10px;
+    line-height: 30px;
+}
+
+div.Cursos{
+    display: flex;
+    justify-content: space-around;
+}
+
+section{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    background-color: white;
+    
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.226);
+    flex: 0 0 200px;
+    margin: 20px 0px;
+    height: 200px;
+}
+
+section.html-css > div.ilustracao{
+    background-color: rgba(173, 216, 230, 0.493);
+    height: 50px;
+    color: blue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin: 5px;
+    border-radius: 10px;
+}
+
+section.html-css > div.text{
+    font-size: 0.8em;
+    margin: 5px;
+    line-height: 35px;
+}
+
+section.html-css > div.button > a{
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+    display: block;
+    width: 95%;
+    margin: 5px auto;
+    border-radius: 10px;
+}
+
+section.Js > div.ilustracao{
+    background-color: rgba(255, 166, 0, 0.459);
+    height: 50px;
+    color: rgb(168, 113, 11);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin: 5px;
+    border-radius: 10px;
+}
+
+section.Js > div.text{
+    font-size: 0.8em;
+    margin: 5px;
+    line-height: 35px;
+}
+
+section.Js > div.button > a{
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+    display: block;
+    width: 95%;
+    margin: 5px auto;
+    border-radius: 10px;
+}
+
+section.Banco > div.ilustracao{
+    background-color: rgba(0, 128, 0, 0.315);
+    height: 50px;
+    color: green;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin: 5px;
+    border-radius: 10px;
+}
+
+section.Banco > div.text{
+    font-size: 0.8em;
+    margin: 5px;
+    line-height: 35px;
+}
+
+section.Banco > div.button > a{
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+    display: block;
+    width: 95%;
+    margin: 5px auto;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: rgb(32, 32, 116);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
